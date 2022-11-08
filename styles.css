@@ -36,3 +36,54 @@ li {
     padding: 0;
     margin-right: 16px;
 }
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 48px;
+}
+
+.title {
+    font-size: 48px;
+    color: white;
+}
+
+.white-text {
+    color: white;
+}
+
+.sign-up-button {
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    padding: 16px 32px;
+    display: flex;
+    align-items: left;
+    justify-self: left;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.image  {
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-grow: 1;
+    align-self: center;
+    justify-content: center;
+    width: 50%;
+    margin: 48px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
