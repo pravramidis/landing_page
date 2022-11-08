@@ -1,1 +1,1 @@
-# landing_page
+This landing page is a project for the odin project course on css foundations.
