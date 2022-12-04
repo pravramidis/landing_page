@@ -118,8 +118,8 @@ li {
 }
 
 .image-part {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border-color: #3882F6;
     border-radius: 10px;
     border-style: solid;
@@ -130,5 +130,39 @@ li {
 .card-subtext {
     display: flex;
     flex-wrap: wrap;
-    width: 100px;
+    width: 130px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 70px;
+}
+
+.quote-text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+
+.author {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
