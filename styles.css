@@ -2,6 +2,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -22,6 +23,11 @@ body {
 
 .links {
     display: flex;
+}
+
+li:hover {
+    filter: brightness(85%);
+    cursor: pointer;
 }
 
 ul {
@@ -73,6 +79,12 @@ li {
     justify-self: left;
     width: fit-content;
     border-radius: 10px;
+}
+
+.sign-up-button:hover {
+    color: #3882F6;
+    background-color:white;
+    cursor: pointer;
 }
 
 .image  {
@@ -191,6 +203,12 @@ li {
     padding-left: 20px;
     padding-right: 20px;
     font-weight: bold;
+}
+
+.second-sign-up:hover {
+    color: #3882F6;
+    background-color:white;
+    cursor: pointer;
 }
 
 .footer {
