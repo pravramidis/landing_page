@@ -168,6 +168,8 @@ li {
     padding-right: 40px;
     border-radius: 5px;
     gap: 80px;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .banner-column {
@@ -191,7 +193,14 @@ li {
     font-weight: bold;
 }
 
-
+.footer {
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
 
 
 
