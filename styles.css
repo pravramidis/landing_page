@@ -25,6 +25,12 @@ body {
     display: flex;
 }
 
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
 li:hover {
     filter: brightness(85%);
     cursor: pointer;
