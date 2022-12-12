@@ -2,7 +2,8 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .header {
@@ -55,6 +56,8 @@ li {
     flex-grow: 1;
     background-color: #1F2937;
     justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .left-side {
@@ -64,6 +67,7 @@ li {
     flex-wrap: wrap;
     width: 50%;
     margin: 48px;
+    flex-grow: 0;
 }
 
 .title {
@@ -149,6 +153,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     width: 130px;
+    text-align: center;
 }
 
 .quote {
@@ -157,6 +162,8 @@ li {
     flex-direction: column;
     gap: 0;
     padding: 70px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .quote-text {
